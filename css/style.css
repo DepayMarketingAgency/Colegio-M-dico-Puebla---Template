@@ -1,0 +1,370 @@
+/* nav bar */
+.title-box{
+    margin: auto;
+    padding: 2%;
+    display: inline;
+}
+
+.bar{
+    width: 100%;
+    height: 15px;
+    background: rgba(14,154,154,1);
+    background: -moz-linear-gradient(left, rgba(14,154,154,1) 0%, rgba(10,58,97,1) 50%, rgba(27,67,97,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(14,154,154,1)), color-stop(50%, rgba(10,58,97,1)), color-stop(100%, rgba(27,67,97,1)));
+    background: -webkit-linear-gradient(left, rgba(14,154,154,1) 0%, rgba(10,58,97,1) 50%, rgba(27,67,97,1) 100%);
+    background: -o-linear-gradient(left, rgba(14,154,154,1) 0%, rgba(10,58,97,1) 50%, rgba(27,67,97,1) 100%);
+    background: -ms-linear-gradient(left, rgba(14,154,154,1) 0%, rgba(10,58,97,1) 50%, rgba(27,67,97,1) 100%);
+    background: linear-gradient(to right, rgba(14,154,154,1) 0%, rgba(10,58,97,1) 50%, rgba(27,67,97,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e9a9a', endColorstr='#1b4361', GradientType=1 );
+}
+
+.navbar{
+    padding: 0%;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(219,27,139,1) !important;
+}
+
+.nav-link:hover{
+    border-bottom: 3px solid rgba(219,27,139,1);
+    color: rgba(219,27,139,1) !important;
+}
+
+.logo-container{
+    display: inline;
+}
+
+.logo-container > img {
+    width: 75px;
+    height: 75px;
+  
+}
+
+.logotext{
+    display: inline-block;
+    white-space: normal;
+    width: 150px;
+}
+
+.navbar-brand > .logotext > span {
+    /*max-width: 120px;*/
+    display: inline-block;
+    font-size: small;
+    color: gray;
+    font-weight: 700;
+    margin-top: 6%;
+}
+
+.active{
+    border-bottom: 3px solid rgba(219,27,139,1);
+}
+
+.linear-gradient{
+    width: 100%;
+    height: 7px;
+    background: -moz-linear-gradient(left, rgba(219,27,139,1) 0%, rgba(107,12,85,1) 48%, rgba(10,87,138,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(219,27,139,1)), color-stop(48%, rgba(107,12,85,1)), color-stop(100%, rgba(10,87,138,1)));
+    background: -webkit-linear-gradient(left, rgba(219,27,139,1) 0%, rgba(107,12,85,1) 48%, rgba(10,87,138,1) 100%);
+    background: -o-linear-gradient(left, rgba(219,27,139,1) 0%, rgba(107,12,85,1) 48%, rgba(10,87,138,1) 100%);
+    background: -ms-linear-gradient(left, rgba(219,27,139,1) 0%, rgba(107,12,85,1) 48%, rgba(10,87,138,1) 100%);
+    background: linear-gradient(to right, rgba(219,27,139,1) 0%, rgba(107,12,85,1) 48%, rgba(10,87,138,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db1b8b', endColorstr='#0a578a', GradientType=1 );
+}
+/* content */
+
+.header-title{
+
+    max-width: 100%;
+    height: 230px;
+    padding: 3%;
+    content: "";
+    opacity: 0.999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: relative;
+    background: -moz-linear-gradient(left, rgba(219,27,139,1) 0%, rgba(107,12,85,1) 48%, rgba(10,87,138,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(219,27,139,1)), color-stop(48%, rgba(107,12,85,1)), color-stop(100%, rgba(10,87,138,1)));
+    background: -webkit-linear-gradient(left, rgba(219,27,139,1) 0%, rgba(107,12,85,1) 48%, rgba(10,87,138,1) 100%);
+    background: -o-linear-gradient(left, rgba(219,27,139,1) 0%, rgba(107,12,85,1) 48%, rgba(10,87,138,1) 100%);
+    background: -ms-linear-gradient(left, rgba(219,27,139,1) 0%, rgba(107,12,85,1) 48%, rgba(10,87,138,1) 100%);
+    background: linear-gradient(to right, rgba(219,27,139,1) 0%, rgba(107,12,85,1) 48%, rgba(10,87,138,1) 100%);
+}
+
+.header-title::before{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/header1.jpeg");
+    content: "";
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.header-title > h1 {
+    color: white;
+    padding: 3%;
+}
+
+/* card */ 
+
+.card{
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5%;
+    background-color:  rgba(199, 15, 123, 0.753);
+}
+
+.card-title{
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-decoration: underline white;
+}
+
+.card-text{
+    color: white;
+    margin: auto;
+    margin-top: 5%;
+}
+
+/*about html */
+
+.spacing{
+    margin-top: 3%;
+}
+
+/*activities html */
+.btn-rose{
+    border-color: rgba(219,27,139,1);
+    border-radius: 16px 16px 16px 16px !important;
+    background-color: white;
+    color:  rgba(219,27,139,1);
+    width: 60% !important;
+    margin: auto !important;
+    display: block;
+}
+
+.btn-rose:hover{
+    border-color: rgba(219,27,139,1);;
+    background-color: rgba(219,27,139,1);
+    color:  white;
+}
+
+.btn-rose-full {
+    color: #fff;
+    background-color: rgba(219,27,139,1);
+    border-color: rgba(219,27,139,1);
+    border-radius: 16px 16px 16px 16px !important;
+    width: 60% !important;
+    margin: auto !important;
+    display: block;
+}
+
+.btn-rose-full:hover {
+    color: #fff;
+    background-color:  rgb(141, 10, 87);
+    border-color: rgb(141, 10, 87);
+}
+
+.date-number{
+    color: rgba(219,27,139,1);
+}
+
+.date-number > h1{
+    font-size: 400%;
+}
+
+.date-number-right{
+    max-width: 90px;
+}
+
+.date-number-right > h1{
+    font-size: 400%;
+    color: rgba(219,27,139,1);
+    
+}
+
+.comming{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.act-1{
+    max-width: 150px;
+    margin: auto;
+    display: block;
+}
+
+.act-2{
+    max-width: 265px;
+    margin: auto;
+    margin-top: 0%;
+    display: block;
+}
+
+
+/* about img */
+.about-img{
+    max-width: 280px;
+    max-height: 300px;
+    padding: 0%;
+    margin: auto;
+    display: block;
+}
+
+
+.content-contact-title::after {
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    background-image: url("../images/activities-font.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+  }
+
+
+.act-box::after {
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    background-image: url("../images/activities-font.jpg");
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
+  }
+
+/* location  */
+
+.map-frame{
+    /* padding: 2%; */
+    width: 100%;
+    height: 300px;
+}
+
+/*Contact */
+
+.title-box-contact{
+    text-align: center;
+}
+
+.title-box-contact > h2 {
+    margin: auto;
+    display: block;
+    color: rgb(94, 94, 94);
+    font-size: 300%;
+}
+
+/* Form */
+.form-group > label {
+    margin: auto;
+    width: 100%;
+}
+
+.form-box {
+    margin: auto;
+    width: 50%;
+    padding: 2%;
+}
+
+.form-box > form {
+    width: 100%;
+}
+
+.btn-submit-contact{
+    border-radius: 16px 16px 16px 16px !important;
+    width: 100% !important;
+    margin: auto !important;
+}
+
+/* Galery */
+.title-galery-gradient{
+    width: 60px !important;
+    display: block;
+    margin: auto;
+}
+.img-galery-box{
+    width: 100%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    
+}
+
+.img-galery{
+    border-radius: 5%;
+    max-width: 250px;
+    margin: auto;
+    display: block;
+    margin-top: 3%;
+}
+
+.img-galery-box > .title {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    color: gray;
+    
+}
+
+.img-galery-box > .title > span {
+    margin: auto;
+    text-align: center;
+}
+
+/* contact html */
+
+.title-contact-gradient{
+    width: 150px !important;
+    display: block;
+    margin: auto;
+}
+
+
+/* footer */
+
+footer{
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 5px;
+    background: rgb(10,90,150);
+}
+
+
+footer > a{
+    color: gainsboro;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    display: inline;
+    padding: 2%;
+}
+
+footer > a:hover {
+    color: black;
+}
+
+footer > span {
+    margin: 2%;
+    text-align: center;
+    display: block;
+}
+
